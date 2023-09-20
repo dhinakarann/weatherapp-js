@@ -1,5 +1,5 @@
 
-const API_KEY = "998834fdc9415cbcf817433207a3f0ff"
+const API_KEY = "your api key here"
 
 async function showWeather() {
     
