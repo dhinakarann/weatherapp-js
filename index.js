@@ -1,12 +1,17 @@
 const API_KEY = "your api key";
 
+
 function renderWeatherData(data){
+
+const API_KEY = "your api key here"
+
 
     let newPara = document.createElement("p");
     newPara.textContent = `${data?.main?.temp.toFixed(2)} °C`;
 
     document.body.appendChild(newPara);
 }
+
 
 async function fetchWeatherDetails() {
     try {
@@ -41,5 +46,5 @@ async function getCustomWeatherDetails(){
    }
 }
 
-getCustomWeatherDetails()
-fetchWeatherDetails()
+
+
